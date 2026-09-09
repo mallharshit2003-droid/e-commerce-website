@@ -1,0 +1,11 @@
+var R=require("../../../../chunks/[turbopack]_runtime.js")("server/app/api/vendor/update-product/route.js")
+R.c("server/chunks/node_modules_next_e5db52ec._.js")
+R.c("server/chunks/node_modules_lodash_9f355569._.js")
+R.c("server/chunks/node_modules_cloudinary_0ecd8ca6._.js")
+R.c("server/chunks/node_modules_@auth_core_5e0bf1eb._.js")
+R.c("server/chunks/node_modules_jose_dist_webapi_868b124b._.js")
+R.c("server/chunks/node_modules_287b9c14._.js")
+R.c("server/chunks/[root-of-the-server]__a0cab885._.js")
+R.c("server/chunks/_next-internal_server_app_api_vendor_update-product_route_actions_d1275082.js")
+R.m("[project]/node_modules/next/dist/esm/build/templates/app-route.js { INNER_APP_ROUTE => \"[project]/src/app/api/vendor/update-product/route.ts [app-route] (ecmascript)\" } [app-route] (ecmascript)")
+module.exports=R.m("[project]/node_modules/next/dist/esm/build/templates/app-route.js { INNER_APP_ROUTE => \"[project]/src/app/api/vendor/update-product/route.ts [app-route] (ecmascript)\" } [app-route] (ecmascript)").exports

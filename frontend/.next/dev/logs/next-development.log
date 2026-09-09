@@ -1,0 +1,457 @@
+[00:00:02.122] Server  LOG      ✓ Ready in 1643ms
+[00:00:11.279] Server  LOG      ○ Compiling / ...
+[00:00:18.014] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:20.127] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:00:20.127] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:00:20.127] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:00:20.127] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:00:20.127] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:00:20.127] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:02:23.947] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:02:23.947] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:02:23.947] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:02:23.947] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:02:23.947] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:02:23.947] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:02:32.426] Server  LOG     undefined
+[00:02:32.674] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:32.848] Browser LOG     undefined
+[00:02:32.849] Browser LOG     undefined
+[00:02:32.983] Browser LOG     {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"env":{},"headers":{"Accept":"application/json, text/plain, */*"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"/api/currentUser","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 400","name":"AxiosError","stack":"AxiosError: Request failed with status code 400\n    at settle (http://localhost:3000/_next/static/chunks/node_modules_66d616c8._.js:10392:16)\n    at XMLHttpRequest.onloadend (http://localhost:3000/_next/static/chunks/node_modules_66d616c8._.js:10907:174)\n    at Axios.request (http://localhost:3000/_next/static/chunks/node_modules_66d616c8._.js:11711:49)\n    at async getCurrentUser.useEffect.fetchUser (http://localhost:3000/_next/static/chunks/frontend_src_10f06adb._.js:208:40)","status":400}
+[00:02:32.983] Browser LOG     ALL ORDERS FETCH ERROR: {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"env":{},"headers":{"Accept":"application/json, text/plain, */*"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"/api/order/allOrder","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 401","name":"AxiosError","stack":"AxiosError: Request failed with status code 401\n    at settle (http://localhost:3000/_next/static/chunks/node_modules_66d616c8._.js:10392:16)\n    at XMLHttpRequest.onloadend (http://localhost:3000/_next/static/chunks/node_modules_66d616c8._.js:10907:174)\n    at Axios.request (http://localhost:3000/_next/static/chunks/node_modules_66d616c8._.js:11711:49)\n    at async getAllOrdersData.useEffect.fetchAllOrders (http://localhost:3000/_next/static/chunks/frontend_src_10f06adb._.js:364:37)","status":401}
+[00:02:32.983] Browser LOG     undefined
+[00:02:32.983] Browser LOG     undefined
+[00:02:35.507] Browser LOG     undefined
+[00:02:35.507] Browser LOG     undefined
+[00:02:35.714] Browser LOG     undefined
+[00:02:35.714] Browser LOG     undefined
+[00:02:36.305] Browser LOG     undefined
+[00:02:36.305] Browser LOG     undefined
+[00:02:36.495] Browser LOG     undefined
+[00:02:36.495] Browser LOG     undefined
+[00:02:36.926] Browser LOG     undefined
+[00:02:36.926] Browser LOG     undefined
+[00:02:37.303] Browser LOG     undefined
+[00:02:37.303] Browser LOG     undefined
+[00:02:37.518] Browser LOG     undefined
+[00:02:37.518] Browser LOG     undefined
+[00:02:37.987] Browser LOG     undefined
+[00:02:37.987] Browser LOG     undefined
+[00:02:38.937] Browser LOG     undefined
+[00:02:38.937] Browser LOG     undefined
+[00:02:39.622] Browser LOG     undefined
+[00:02:39.622] Browser LOG     undefined
+[00:02:40.075] Browser LOG     undefined
+[00:02:40.075] Browser LOG     undefined
+[00:02:40.255] Browser LOG     undefined
+[00:02:40.255] Browser LOG     undefined
+[00:02:40.430] Browser LOG     undefined
+[00:02:40.430] Browser LOG     undefined
+[00:02:40.666] Browser LOG     undefined
+[00:02:40.666] Browser LOG     undefined
+[00:02:41.368] Browser LOG     undefined
+[00:02:41.368] Browser LOG     undefined
+[00:02:42.551] Browser LOG     undefined
+[00:02:42.551] Browser LOG     undefined
+[00:02:42.735] Browser LOG     undefined
+[00:02:42.735] Browser LOG     undefined
+[00:02:43.092] Browser LOG     undefined
+[00:02:43.092] Browser LOG     undefined
+[00:02:45.377] Browser LOG     undefined
+[00:02:45.377] Browser LOG     undefined
+[00:02:45.755] Browser LOG     undefined
+[00:02:45.755] Browser LOG     undefined
+[00:02:46.170] Browser LOG     undefined
+[00:02:46.170] Browser LOG     undefined
+[00:02:46.312] Browser LOG     undefined
+[00:02:46.312] Browser LOG     undefined
+[00:02:46.726] Browser LOG     undefined
+[00:02:46.726] Browser LOG     undefined
+[00:02:47.007] Browser LOG     undefined
+[00:02:47.007] Browser LOG     undefined
+[00:02:47.295] Browser LOG     undefined
+[00:02:47.295] Browser LOG     undefined
+[00:02:47.722] Browser LOG     undefined
+[00:02:47.722] Browser LOG     undefined
+[00:02:48.741] Browser LOG     undefined
+[00:02:48.741] Browser LOG     undefined
+[00:02:49.203] Browser LOG     undefined
+[00:02:49.203] Browser LOG     undefined
+[00:02:49.503] Browser LOG     undefined
+[00:02:49.503] Browser LOG     undefined
+[00:02:49.769] Browser LOG     undefined
+[00:02:49.769] Browser LOG     undefined
+[00:02:51.777] Browser LOG     undefined
+[00:02:51.777] Browser LOG     undefined
+[00:02:52.889] Server  LOG     jitendra@gmail.com
+[00:02:52.924] Browser LOG     undefined
+[00:02:52.924] Browser LOG     undefined
+[00:02:52.964] Server  LOG     {}
+[00:02:53.178] Browser LOG     {"email":"jitendra@gmail.com","id":"6aa0ec4ecde099693c4ef1a4","name":"Jitendra","role":"admin"}
+[00:02:53.178] Browser LOG     {"email":"jitendra@gmail.com","id":"6aa0ec4ecde099693c4ef1a4","name":"Jitendra","role":"admin"}
+[00:02:53.601] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:02:53.601] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:02:53.601] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:02:53.601] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:02:59.917] Browser WARN    Image with src "/uploads/a29ca5ed-9e60-4b5e-bad2-9d498142d9c9.jpeg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:03:27.351] Browser LOG     {"email":"jitendra@gmail.com","id":"6aa0ec4ecde099693c4ef1a4","name":"Jitendra","role":"admin"}
+[00:03:27.351] Browser LOG     {"email":"jitendra@gmail.com","id":"6aa0ec4ecde099693c4ef1a4","name":"Jitendra","role":"admin"}
+[00:03:32.554] Browser LOG     {"email":"jitendra@gmail.com","id":"6aa0ec4ecde099693c4ef1a4","name":"Jitendra","role":"admin"}
+[00:03:32.554] Browser LOG     {"email":"jitendra@gmail.com","id":"6aa0ec4ecde099693c4ef1a4","name":"Jitendra","role":"admin"}
+[00:03:32.682] Browser LOG     {"email":"jitendra@gmail.com","id":"6aa0ec4ecde099693c4ef1a4","name":"Jitendra","role":"admin"}
+[00:03:32.682] Browser LOG     {"email":"jitendra@gmail.com","id":"6aa0ec4ecde099693c4ef1a4","name":"Jitendra","role":"admin"}
+[00:03:33.016] Browser LOG     {"email":"jitendra@gmail.com","id":"6aa0ec4ecde099693c4ef1a4","name":"Jitendra","role":"admin"}
+[00:03:33.016] Browser LOG     {"email":"jitendra@gmail.com","id":"6aa0ec4ecde099693c4ef1a4","name":"Jitendra","role":"admin"}
+[00:03:33.394] Browser LOG     {"email":"jitendra@gmail.com","id":"6aa0ec4ecde099693c4ef1a4","name":"Jitendra","role":"admin"}
+[00:03:33.394] Browser LOG     {"email":"jitendra@gmail.com","id":"6aa0ec4ecde099693c4ef1a4","name":"Jitendra","role":"admin"}
+[00:03:33.584] Browser LOG     {"email":"jitendra@gmail.com","id":"6aa0ec4ecde099693c4ef1a4","name":"Jitendra","role":"admin"}
+[00:03:33.584] Browser LOG     {"email":"jitendra@gmail.com","id":"6aa0ec4ecde099693c4ef1a4","name":"Jitendra","role":"admin"}
+[00:03:33.888] Browser LOG     {"email":"jitendra@gmail.com","id":"6aa0ec4ecde099693c4ef1a4","name":"Jitendra","role":"admin"}
+[00:03:33.888] Browser LOG     {"email":"jitendra@gmail.com","id":"6aa0ec4ecde099693c4ef1a4","name":"Jitendra","role":"admin"}
+[00:03:34.016] Browser LOG     {"email":"jitendra@gmail.com","id":"6aa0ec4ecde099693c4ef1a4","name":"Jitendra","role":"admin"}
+[00:03:34.016] Browser LOG     {"email":"jitendra@gmail.com","id":"6aa0ec4ecde099693c4ef1a4","name":"Jitendra","role":"admin"}
+[00:03:35.259] Browser LOG     {"email":"jitendra@gmail.com","id":"6aa0ec4ecde099693c4ef1a4","name":"Jitendra","role":"admin"}
+[00:03:35.259] Browser LOG     {"email":"jitendra@gmail.com","id":"6aa0ec4ecde099693c4ef1a4","name":"Jitendra","role":"admin"}
+[00:03:35.818] Browser LOG     {"email":"jitendra@gmail.com","id":"6aa0ec4ecde099693c4ef1a4","name":"Jitendra","role":"admin"}
+[00:03:35.818] Browser LOG     {"email":"jitendra@gmail.com","id":"6aa0ec4ecde099693c4ef1a4","name":"Jitendra","role":"admin"}
+[00:03:36.641] Browser LOG     {"email":"jitendra@gmail.com","id":"6aa0ec4ecde099693c4ef1a4","name":"Jitendra","role":"admin"}
+[00:03:36.642] Browser LOG     {"email":"jitendra@gmail.com","id":"6aa0ec4ecde099693c4ef1a4","name":"Jitendra","role":"admin"}
+[00:03:36.801] Browser LOG     {"email":"jitendra@gmail.com","id":"6aa0ec4ecde099693c4ef1a4","name":"Jitendra","role":"admin"}
+[00:03:36.801] Browser LOG     {"email":"jitendra@gmail.com","id":"6aa0ec4ecde099693c4ef1a4","name":"Jitendra","role":"admin"}
+[00:03:37.070] Browser LOG     {"email":"jitendra@gmail.com","id":"6aa0ec4ecde099693c4ef1a4","name":"Jitendra","role":"admin"}
+[00:03:37.070] Browser LOG     {"email":"jitendra@gmail.com","id":"6aa0ec4ecde099693c4ef1a4","name":"Jitendra","role":"admin"}
+[00:03:37.498] Browser LOG     {"email":"jitendra@gmail.com","id":"6aa0ec4ecde099693c4ef1a4","name":"Jitendra","role":"admin"}
+[00:03:37.498] Browser LOG     {"email":"jitendra@gmail.com","id":"6aa0ec4ecde099693c4ef1a4","name":"Jitendra","role":"admin"}
+[00:03:38.290] Browser LOG     {"email":"jitendra@gmail.com","id":"6aa0ec4ecde099693c4ef1a4","name":"Jitendra","role":"admin"}
+[00:03:38.290] Browser LOG     {"email":"jitendra@gmail.com","id":"6aa0ec4ecde099693c4ef1a4","name":"Jitendra","role":"admin"}
+[00:03:38.590] Browser LOG     {"email":"jitendra@gmail.com","id":"6aa0ec4ecde099693c4ef1a4","name":"Jitendra","role":"admin"}
+[00:03:38.590] Browser LOG     {"email":"jitendra@gmail.com","id":"6aa0ec4ecde099693c4ef1a4","name":"Jitendra","role":"admin"}
+[00:03:38.745] Browser LOG     {"email":"jitendra@gmail.com","id":"6aa0ec4ecde099693c4ef1a4","name":"Jitendra","role":"admin"}
+[00:03:38.745] Browser LOG     {"email":"jitendra@gmail.com","id":"6aa0ec4ecde099693c4ef1a4","name":"Jitendra","role":"admin"}
+[00:03:38.982] Browser LOG     {"email":"jitendra@gmail.com","id":"6aa0ec4ecde099693c4ef1a4","name":"Jitendra","role":"admin"}
+[00:03:38.982] Browser LOG     {"email":"jitendra@gmail.com","id":"6aa0ec4ecde099693c4ef1a4","name":"Jitendra","role":"admin"}
+[00:03:41.425] Browser LOG     {"email":"jitendra@gmail.com","id":"6aa0ec4ecde099693c4ef1a4","name":"Jitendra","role":"admin"}
+[00:03:41.425] Browser LOG     {"email":"jitendra@gmail.com","id":"6aa0ec4ecde099693c4ef1a4","name":"Jitendra","role":"admin"}
+[00:03:41.851] Browser LOG     {"email":"jitendra@gmail.com","id":"6aa0ec4ecde099693c4ef1a4","name":"Jitendra","role":"admin"}
+[00:03:41.851] Browser LOG     {"email":"jitendra@gmail.com","id":"6aa0ec4ecde099693c4ef1a4","name":"Jitendra","role":"admin"}
+[00:03:42.327] Browser LOG     {"email":"jitendra@gmail.com","id":"6aa0ec4ecde099693c4ef1a4","name":"Jitendra","role":"admin"}
+[00:03:42.327] Browser LOG     {"email":"jitendra@gmail.com","id":"6aa0ec4ecde099693c4ef1a4","name":"Jitendra","role":"admin"}
+[00:03:42.864] Browser LOG     {"email":"jitendra@gmail.com","id":"6aa0ec4ecde099693c4ef1a4","name":"Jitendra","role":"admin"}
+[00:03:42.864] Browser LOG     {"email":"jitendra@gmail.com","id":"6aa0ec4ecde099693c4ef1a4","name":"Jitendra","role":"admin"}
+[00:03:43.087] Browser LOG     {"email":"jitendra@gmail.com","id":"6aa0ec4ecde099693c4ef1a4","name":"Jitendra","role":"admin"}
+[00:03:43.087] Browser LOG     {"email":"jitendra@gmail.com","id":"6aa0ec4ecde099693c4ef1a4","name":"Jitendra","role":"admin"}
+[00:03:43.386] Browser LOG     {"email":"jitendra@gmail.com","id":"6aa0ec4ecde099693c4ef1a4","name":"Jitendra","role":"admin"}
+[00:03:43.386] Browser LOG     {"email":"jitendra@gmail.com","id":"6aa0ec4ecde099693c4ef1a4","name":"Jitendra","role":"admin"}
+[00:03:43.848] Browser LOG     {"email":"jitendra@gmail.com","id":"6aa0ec4ecde099693c4ef1a4","name":"Jitendra","role":"admin"}
+[00:03:43.848] Browser LOG     {"email":"jitendra@gmail.com","id":"6aa0ec4ecde099693c4ef1a4","name":"Jitendra","role":"admin"}
+[00:03:44.881] Browser LOG     {"email":"jitendra@gmail.com","id":"6aa0ec4ecde099693c4ef1a4","name":"Jitendra","role":"admin"}
+[00:03:44.881] Browser LOG     {"email":"jitendra@gmail.com","id":"6aa0ec4ecde099693c4ef1a4","name":"Jitendra","role":"admin"}
+[00:03:45.817] Browser LOG     {"email":"jitendra@gmail.com","id":"6aa0ec4ecde099693c4ef1a4","name":"Jitendra","role":"admin"}
+[00:03:45.817] Browser LOG     {"email":"jitendra@gmail.com","id":"6aa0ec4ecde099693c4ef1a4","name":"Jitendra","role":"admin"}
+[00:03:46.119] Browser LOG     {"email":"jitendra@gmail.com","id":"6aa0ec4ecde099693c4ef1a4","name":"Jitendra","role":"admin"}
+[00:03:46.119] Browser LOG     {"email":"jitendra@gmail.com","id":"6aa0ec4ecde099693c4ef1a4","name":"Jitendra","role":"admin"}
+[00:03:46.389] Browser LOG     {"email":"jitendra@gmail.com","id":"6aa0ec4ecde099693c4ef1a4","name":"Jitendra","role":"admin"}
+[00:03:46.389] Browser LOG     {"email":"jitendra@gmail.com","id":"6aa0ec4ecde099693c4ef1a4","name":"Jitendra","role":"admin"}
+[00:03:48.331] Browser LOG     {"email":"jitendra@gmail.com","id":"6aa0ec4ecde099693c4ef1a4","name":"Jitendra","role":"admin"}
+[00:03:48.331] Browser LOG     {"email":"jitendra@gmail.com","id":"6aa0ec4ecde099693c4ef1a4","name":"Jitendra","role":"admin"}
+[00:03:49.351] Server  LOG     harshit@gmail.com
+[00:03:49.389] Browser LOG     {"email":"jitendra@gmail.com","id":"6aa0ec4ecde099693c4ef1a4","name":"Jitendra","role":"admin"}
+[00:03:49.389] Browser LOG     {"email":"jitendra@gmail.com","id":"6aa0ec4ecde099693c4ef1a4","name":"Jitendra","role":"admin"}
+[00:03:49.433] Server  LOG     {}
+[00:03:49.629] Browser LOG     {"email":"harshit@gmail.com","id":"6aa0ecf8cde099693c4ef1bf","name":"Harshit","role":"user"}
+[00:03:49.629] Browser LOG     {"email":"harshit@gmail.com","id":"6aa0ecf8cde099693c4ef1bf","name":"Harshit","role":"user"}
+[00:03:49.892] Browser WARN    Image with src "/_next/static/media/silder.60ed0907.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:49.892] Browser WARN    Image with src "/_next/static/media/silder2.c85e779c.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:49.892] Browser WARN    Image with src "/_next/static/media/silder1.66afd9d8.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:50.783] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/shop.png" "received" null
+[00:03:57.980] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/shop.png" "received" null
+[00:03:58.140] Browser WARN    Image with src "/uploads/a29ca5ed-9e60-4b5e-bad2-9d498142d9c9.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:04:05.513] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/shop.png" "received" null
+[00:04:22.331] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/shop.png" "received" null
+[00:04:32.937] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/shop.png" "received" null
+[00:04:59.469] Browser LOG     {"email":"harshit@gmail.com","id":"6aa0ecf8cde099693c4ef1bf","name":"Harshit","role":"user"}
+[00:04:59.469] Browser LOG     {"email":"harshit@gmail.com","id":"6aa0ecf8cde099693c4ef1bf","name":"Harshit","role":"user"}
+[00:05:09.007] Browser LOG     {"email":"harshit@gmail.com","id":"6aa0ecf8cde099693c4ef1bf","name":"Harshit","role":"user"}
+[00:05:09.007] Browser LOG     {"email":"harshit@gmail.com","id":"6aa0ecf8cde099693c4ef1bf","name":"Harshit","role":"user"}
+[00:05:09.168] Browser LOG     {"email":"harshit@gmail.com","id":"6aa0ecf8cde099693c4ef1bf","name":"Harshit","role":"user"}
+[00:05:09.168] Browser LOG     {"email":"harshit@gmail.com","id":"6aa0ecf8cde099693c4ef1bf","name":"Harshit","role":"user"}
+[00:05:09.295] Browser LOG     {"email":"harshit@gmail.com","id":"6aa0ecf8cde099693c4ef1bf","name":"Harshit","role":"user"}
+[00:05:09.295] Browser LOG     {"email":"harshit@gmail.com","id":"6aa0ecf8cde099693c4ef1bf","name":"Harshit","role":"user"}
+[00:05:09.627] Browser LOG     {"email":"harshit@gmail.com","id":"6aa0ecf8cde099693c4ef1bf","name":"Harshit","role":"user"}
+[00:05:09.627] Browser LOG     {"email":"harshit@gmail.com","id":"6aa0ecf8cde099693c4ef1bf","name":"Harshit","role":"user"}
+[00:05:09.861] Browser LOG     {"email":"harshit@gmail.com","id":"6aa0ecf8cde099693c4ef1bf","name":"Harshit","role":"user"}
+[00:05:09.861] Browser LOG     {"email":"harshit@gmail.com","id":"6aa0ecf8cde099693c4ef1bf","name":"Harshit","role":"user"}
+[00:05:10.122] Browser LOG     {"email":"harshit@gmail.com","id":"6aa0ecf8cde099693c4ef1bf","name":"Harshit","role":"user"}
+[00:05:10.122] Browser LOG     {"email":"harshit@gmail.com","id":"6aa0ecf8cde099693c4ef1bf","name":"Harshit","role":"user"}
+[00:05:10.266] Browser LOG     {"email":"harshit@gmail.com","id":"6aa0ecf8cde099693c4ef1bf","name":"Harshit","role":"user"}
+[00:05:10.266] Browser LOG     {"email":"harshit@gmail.com","id":"6aa0ecf8cde099693c4ef1bf","name":"Harshit","role":"user"}
+[00:05:11.158] Browser LOG     {"email":"harshit@gmail.com","id":"6aa0ecf8cde099693c4ef1bf","name":"Harshit","role":"user"}
+[00:05:11.158] Browser LOG     {"email":"harshit@gmail.com","id":"6aa0ecf8cde099693c4ef1bf","name":"Harshit","role":"user"}
+[00:05:11.953] Browser LOG     {"email":"harshit@gmail.com","id":"6aa0ecf8cde099693c4ef1bf","name":"Harshit","role":"user"}
+[00:05:11.953] Browser LOG     {"email":"harshit@gmail.com","id":"6aa0ecf8cde099693c4ef1bf","name":"Harshit","role":"user"}
+[00:05:12.399] Browser LOG     {"email":"harshit@gmail.com","id":"6aa0ecf8cde099693c4ef1bf","name":"Harshit","role":"user"}
+[00:05:12.399] Browser LOG     {"email":"harshit@gmail.com","id":"6aa0ecf8cde099693c4ef1bf","name":"Harshit","role":"user"}
+[00:05:12.558] Browser LOG     {"email":"harshit@gmail.com","id":"6aa0ecf8cde099693c4ef1bf","name":"Harshit","role":"user"}
+[00:05:12.558] Browser LOG     {"email":"harshit@gmail.com","id":"6aa0ecf8cde099693c4ef1bf","name":"Harshit","role":"user"}
+[00:05:12.749] Browser LOG     {"email":"harshit@gmail.com","id":"6aa0ecf8cde099693c4ef1bf","name":"Harshit","role":"user"}
+[00:05:12.749] Browser LOG     {"email":"harshit@gmail.com","id":"6aa0ecf8cde099693c4ef1bf","name":"Harshit","role":"user"}
+[00:05:12.940] Browser LOG     {"email":"harshit@gmail.com","id":"6aa0ecf8cde099693c4ef1bf","name":"Harshit","role":"user"}
+[00:05:12.940] Browser LOG     {"email":"harshit@gmail.com","id":"6aa0ecf8cde099693c4ef1bf","name":"Harshit","role":"user"}
+[00:05:13.700] Browser LOG     {"email":"harshit@gmail.com","id":"6aa0ecf8cde099693c4ef1bf","name":"Harshit","role":"user"}
+[00:05:13.700] Browser LOG     {"email":"harshit@gmail.com","id":"6aa0ecf8cde099693c4ef1bf","name":"Harshit","role":"user"}
+[00:05:14.001] Browser LOG     {"email":"harshit@gmail.com","id":"6aa0ecf8cde099693c4ef1bf","name":"Harshit","role":"user"}
+[00:05:14.001] Browser LOG     {"email":"harshit@gmail.com","id":"6aa0ecf8cde099693c4ef1bf","name":"Harshit","role":"user"}
+[00:05:14.206] Browser LOG     {"email":"harshit@gmail.com","id":"6aa0ecf8cde099693c4ef1bf","name":"Harshit","role":"user"}
+[00:05:14.206] Browser LOG     {"email":"harshit@gmail.com","id":"6aa0ecf8cde099693c4ef1bf","name":"Harshit","role":"user"}
+[00:05:14.444] Browser LOG     {"email":"harshit@gmail.com","id":"6aa0ecf8cde099693c4ef1bf","name":"Harshit","role":"user"}
+[00:05:14.444] Browser LOG     {"email":"harshit@gmail.com","id":"6aa0ecf8cde099693c4ef1bf","name":"Harshit","role":"user"}
+[00:05:16.729] Browser LOG     {"email":"harshit@gmail.com","id":"6aa0ecf8cde099693c4ef1bf","name":"Harshit","role":"user"}
+[00:05:16.729] Browser LOG     {"email":"harshit@gmail.com","id":"6aa0ecf8cde099693c4ef1bf","name":"Harshit","role":"user"}
+[00:05:17.125] Browser LOG     {"email":"harshit@gmail.com","id":"6aa0ecf8cde099693c4ef1bf","name":"Harshit","role":"user"}
+[00:05:17.125] Browser LOG     {"email":"harshit@gmail.com","id":"6aa0ecf8cde099693c4ef1bf","name":"Harshit","role":"user"}
+[00:05:17.292] Browser LOG     {"email":"harshit@gmail.com","id":"6aa0ecf8cde099693c4ef1bf","name":"Harshit","role":"user"}
+[00:05:17.292] Browser LOG     {"email":"harshit@gmail.com","id":"6aa0ecf8cde099693c4ef1bf","name":"Harshit","role":"user"}
+[00:05:17.789] Browser LOG     {"email":"harshit@gmail.com","id":"6aa0ecf8cde099693c4ef1bf","name":"Harshit","role":"user"}
+[00:05:17.789] Browser LOG     {"email":"harshit@gmail.com","id":"6aa0ecf8cde099693c4ef1bf","name":"Harshit","role":"user"}
+[00:05:18.069] Browser LOG     {"email":"harshit@gmail.com","id":"6aa0ecf8cde099693c4ef1bf","name":"Harshit","role":"user"}
+[00:05:18.069] Browser LOG     {"email":"harshit@gmail.com","id":"6aa0ecf8cde099693c4ef1bf","name":"Harshit","role":"user"}
+[00:05:18.406] Browser LOG     {"email":"harshit@gmail.com","id":"6aa0ecf8cde099693c4ef1bf","name":"Harshit","role":"user"}
+[00:05:18.406] Browser LOG     {"email":"harshit@gmail.com","id":"6aa0ecf8cde099693c4ef1bf","name":"Harshit","role":"user"}
+[00:05:18.550] Browser LOG     {"email":"harshit@gmail.com","id":"6aa0ecf8cde099693c4ef1bf","name":"Harshit","role":"user"}
+[00:05:18.550] Browser LOG     {"email":"harshit@gmail.com","id":"6aa0ecf8cde099693c4ef1bf","name":"Harshit","role":"user"}
+[00:05:19.474] Browser LOG     {"email":"harshit@gmail.com","id":"6aa0ecf8cde099693c4ef1bf","name":"Harshit","role":"user"}
+[00:05:19.474] Browser LOG     {"email":"harshit@gmail.com","id":"6aa0ecf8cde099693c4ef1bf","name":"Harshit","role":"user"}
+[00:05:19.920] Browser LOG     {"email":"harshit@gmail.com","id":"6aa0ecf8cde099693c4ef1bf","name":"Harshit","role":"user"}
+[00:05:19.920] Browser LOG     {"email":"harshit@gmail.com","id":"6aa0ecf8cde099693c4ef1bf","name":"Harshit","role":"user"}
+[00:05:20.271] Browser LOG     {"email":"harshit@gmail.com","id":"6aa0ecf8cde099693c4ef1bf","name":"Harshit","role":"user"}
+[00:05:20.271] Browser LOG     {"email":"harshit@gmail.com","id":"6aa0ecf8cde099693c4ef1bf","name":"Harshit","role":"user"}
+[00:05:20.523] Browser LOG     {"email":"harshit@gmail.com","id":"6aa0ecf8cde099693c4ef1bf","name":"Harshit","role":"user"}
+[00:05:20.524] Browser LOG     {"email":"harshit@gmail.com","id":"6aa0ecf8cde099693c4ef1bf","name":"Harshit","role":"user"}
+[00:05:20.821] Server  LOG     kamlesh@gmail.com
+[00:05:20.860] Browser LOG     {"email":"harshit@gmail.com","id":"6aa0ecf8cde099693c4ef1bf","name":"Harshit","role":"user"}
+[00:05:20.860] Browser LOG     {"email":"harshit@gmail.com","id":"6aa0ecf8cde099693c4ef1bf","name":"Harshit","role":"user"}
+[00:05:20.906] Server  LOG     {}
+[00:05:21.107] Browser LOG     {"email":"kamlesh@gmail.com","id":"6aa0ed63cde099693c4ef1ce","name":"Kamlesh","role":"vendor"}
+[00:05:21.107] Browser LOG     {"email":"kamlesh@gmail.com","id":"6aa0ed63cde099693c4ef1ce","name":"Kamlesh","role":"vendor"}
+[00:05:21.558] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:05:21.558] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:05:21.558] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:05:21.558] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:05:21.558] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:05:21.558] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:05:40.654] Server  LOG     undefined
+[00:05:40.919] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:41.210] Browser LOG     undefined
+[00:05:41.210] Browser LOG     undefined
+[00:05:41.210] Browser LOG     {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"env":{},"headers":{"Accept":"application/json, text/plain, */*"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"/api/currentUser","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 400","name":"AxiosError","stack":"AxiosError: Request failed with status code 400\n    at settle (http://localhost:3000/_next/static/chunks/node_modules_66d616c8._.js:10392:16)\n    at XMLHttpRequest.onloadend (http://localhost:3000/_next/static/chunks/node_modules_66d616c8._.js:10907:174)\n    at Axios.request (http://localhost:3000/_next/static/chunks/node_modules_66d616c8._.js:11711:49)\n    at async getCurrentUser.useEffect.fetchUser (http://localhost:3000/_next/static/chunks/frontend_src_10f06adb._.js:208:40)","status":400}
+[00:05:41.210] Browser LOG     ALL ORDERS FETCH ERROR: {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"env":{},"headers":{"Accept":"application/json, text/plain, */*"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"/api/order/allOrder","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 401","name":"AxiosError","stack":"AxiosError: Request failed with status code 401\n    at settle (http://localhost:3000/_next/static/chunks/node_modules_66d616c8._.js:10392:16)\n    at XMLHttpRequest.onloadend (http://localhost:3000/_next/static/chunks/node_modules_66d616c8._.js:10907:174)\n    at Axios.request (http://localhost:3000/_next/static/chunks/node_modules_66d616c8._.js:11711:49)\n    at async getAllOrdersData.useEffect.fetchAllOrders (http://localhost:3000/_next/static/chunks/frontend_src_10f06adb._.js:364:37)","status":401}
+[00:05:41.210] Browser LOG     undefined
+[00:05:41.210] Browser LOG     undefined
+[00:05:44.780] Browser LOG     undefined
+[00:05:44.780] Browser LOG     undefined
+[00:05:44.953] Browser LOG     undefined
+[00:05:44.953] Browser LOG     undefined
+[00:05:45.300] Browser LOG     undefined
+[00:05:45.301] Browser LOG     undefined
+[00:05:45.668] Browser LOG     undefined
+[00:05:45.668] Browser LOG     undefined
+[00:05:45.828] Browser LOG     undefined
+[00:05:45.828] Browser LOG     undefined
+[00:05:46.132] Browser LOG     undefined
+[00:05:46.132] Browser LOG     undefined
+[00:05:46.324] Browser LOG     undefined
+[00:05:46.324] Browser LOG     undefined
+[00:05:47.251] Browser LOG     undefined
+[00:05:47.251] Browser LOG     undefined
+[00:05:47.729] Browser LOG     undefined
+[00:05:47.729] Browser LOG     undefined
+[00:05:48.191] Browser LOG     undefined
+[00:05:48.191] Browser LOG     undefined
+[00:05:48.426] Browser LOG     undefined
+[00:05:48.426] Browser LOG     undefined
+[00:05:48.694] Browser LOG     undefined
+[00:05:48.694] Browser LOG     undefined
+[00:05:49.078] Browser LOG     undefined
+[00:05:49.078] Browser LOG     undefined
+[00:05:49.505] Browser LOG     undefined
+[00:05:49.505] Browser LOG     undefined
+[00:05:49.805] Browser LOG     undefined
+[00:05:49.805] Browser LOG     undefined
+[00:05:49.977] Browser LOG     undefined
+[00:05:49.977] Browser LOG     undefined
+[00:05:50.237] Browser LOG     undefined
+[00:05:50.237] Browser LOG     undefined
+[00:05:52.320] Browser LOG     undefined
+[00:05:52.320] Browser LOG     undefined
+[00:05:52.809] Browser LOG     undefined
+[00:05:52.809] Browser LOG     undefined
+[00:05:53.206] Browser LOG     undefined
+[00:05:53.206] Browser LOG     undefined
+[00:05:53.616] Browser LOG     undefined
+[00:05:53.616] Browser LOG     undefined
+[00:05:53.775] Browser LOG     undefined
+[00:05:53.775] Browser LOG     undefined
+[00:05:54.125] Browser LOG     undefined
+[00:05:54.125] Browser LOG     undefined
+[00:05:54.397] Browser LOG     undefined
+[00:05:54.397] Browser LOG     undefined
+[00:05:55.289] Browser LOG     undefined
+[00:05:55.289] Browser LOG     undefined
+[00:05:55.656] Browser LOG     undefined
+[00:05:55.657] Browser LOG     undefined
+[00:05:55.935] Browser LOG     undefined
+[00:05:55.935] Browser LOG     undefined
+[00:05:56.198] Browser LOG     undefined
+[00:05:56.198] Browser LOG     undefined
+[00:05:58.081] Browser LOG     undefined
+[00:05:58.082] Browser LOG     undefined
+[00:05:59.120] Server  LOG     harshit@gmail.com
+[00:05:59.158] Browser LOG     undefined
+[00:05:59.158] Browser LOG     undefined
+[00:05:59.185] Server  LOG     {}
+[00:05:59.382] Browser LOG     {"email":"harshit@gmail.com","id":"6aa0ecf8cde099693c4ef1bf","name":"Harshit","role":"user"}
+[00:05:59.382] Browser LOG     {"email":"harshit@gmail.com","id":"6aa0ecf8cde099693c4ef1bf","name":"Harshit","role":"user"}
+[00:05:59.756] Browser WARN    Image with src "/_next/static/media/silder.60ed0907.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:06:00.035] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/shop.png" "received" null
+[00:06:00.056] Browser WARN    Image with src "/_next/static/media/silder1.66afd9d8.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:06:00.056] Browser WARN    Image with src "/_next/static/media/silder2.c85e779c.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:06:20.973] Browser WARN    Image with src "/uploads/a29ca5ed-9e60-4b5e-bad2-9d498142d9c9.jpeg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:06:25.581] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/shop.png" "received" null
+[00:06:36.698] Server  LOG     undefined
+[00:06:36.914] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:37.174] Browser LOG     undefined
+[00:06:37.174] Browser LOG     undefined
+[00:06:37.174] Browser LOG     {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"env":{},"headers":{"Accept":"application/json, text/plain, */*"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"/api/currentUser","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 400","name":"AxiosError","stack":"AxiosError: Request failed with status code 400\n    at settle (http://localhost:3000/_next/static/chunks/node_modules_66d616c8._.js:10392:16)\n    at XMLHttpRequest.onloadend (http://localhost:3000/_next/static/chunks/node_modules_66d616c8._.js:10907:174)\n    at Axios.request (http://localhost:3000/_next/static/chunks/node_modules_66d616c8._.js:11711:49)\n    at async getCurrentUser.useEffect.fetchUser (http://localhost:3000/_next/static/chunks/frontend_src_10f06adb._.js:208:40)","status":400}
+[00:06:37.174] Browser LOG     ALL ORDERS FETCH ERROR: {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"env":{},"headers":{"Accept":"application/json, text/plain, */*"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"/api/order/allOrder","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 401","name":"AxiosError","stack":"AxiosError: Request failed with status code 401\n    at settle (http://localhost:3000/_next/static/chunks/node_modules_66d616c8._.js:10392:16)\n    at XMLHttpRequest.onloadend (http://localhost:3000/_next/static/chunks/node_modules_66d616c8._.js:10907:174)\n    at Axios.request (http://localhost:3000/_next/static/chunks/node_modules_66d616c8._.js:11711:49)\n    at async getAllOrdersData.useEffect.fetchAllOrders (http://localhost:3000/_next/static/chunks/frontend_src_10f06adb._.js:364:37)","status":401}
+[00:06:37.174] Browser LOG     undefined
+[00:06:37.174] Browser LOG     undefined
+[00:08:04.406] Browser LOG     {"user":{"__v":0,"_id":"6aa149d921ae94f1d9a30e0d","cart":[],"chats":[],"createdAt":"2026-09-09T11:58:17.166Z","email":"rampal@gmail.com","isApproved":false,"name":"Rampal","orders":[],"password":"$2b$10$D.rMzooptE9lYf1PghF91eDWGP2PfZHTaJyUamOIVqBaJiH8IEKR6","role":"user","updatedAt":"2026-09-09T11:58:17.166Z","vendorProducts":[],"verificationStatus":"pending"}}
+[00:08:04.406] Browser LOG     undefined
+[00:08:04.406] Browser LOG     undefined
+[00:08:07.257] Browser LOG     undefined
+[00:08:07.257] Browser LOG     undefined
+[00:08:07.865] Browser LOG     undefined
+[00:08:07.865] Browser LOG     undefined
+[00:08:08.116] Browser LOG     undefined
+[00:08:08.116] Browser LOG     undefined
+[00:08:08.573] Browser LOG     undefined
+[00:08:08.573] Browser LOG     undefined
+[00:08:08.701] Browser LOG     undefined
+[00:08:08.701] Browser LOG     undefined
+[00:08:08.861] Browser LOG     undefined
+[00:08:08.861] Browser LOG     undefined
+[00:08:09.530] Browser LOG     undefined
+[00:08:09.530] Browser LOG     undefined
+[00:08:10.105] Browser LOG     undefined
+[00:08:10.105] Browser LOG     undefined
+[00:08:10.522] Browser LOG     undefined
+[00:08:10.522] Browser LOG     undefined
+[00:08:10.661] Browser LOG     undefined
+[00:08:10.661] Browser LOG     undefined
+[00:08:10.837] Browser LOG     undefined
+[00:08:10.837] Browser LOG     undefined
+[00:08:11.092] Browser LOG     undefined
+[00:08:11.092] Browser LOG     undefined
+[00:08:11.508] Browser LOG     undefined
+[00:08:11.508] Browser LOG     undefined
+[00:08:11.796] Browser LOG     undefined
+[00:08:11.796] Browser LOG     undefined
+[00:08:11.924] Browser LOG     undefined
+[00:08:11.924] Browser LOG     undefined
+[00:08:12.179] Browser LOG     undefined
+[00:08:12.179] Browser LOG     undefined
+[00:08:14.927] Browser LOG     undefined
+[00:08:14.927] Browser LOG     undefined
+[00:08:15.766] Browser LOG     undefined
+[00:08:15.766] Browser LOG     undefined
+[00:08:16.004] Browser LOG     undefined
+[00:08:16.004] Browser LOG     undefined
+[00:08:16.350] Browser LOG     undefined
+[00:08:16.350] Browser LOG     undefined
+[00:08:16.515] Browser LOG     undefined
+[00:08:16.515] Browser LOG     undefined
+[00:08:16.657] Browser LOG     undefined
+[00:08:16.657] Browser LOG     undefined
+[00:08:17.490] Browser LOG     undefined
+[00:08:17.490] Browser LOG     undefined
+[00:08:17.886] Browser LOG     undefined
+[00:08:17.886] Browser LOG     undefined
+[00:08:18.169] Browser LOG     undefined
+[00:08:18.169] Browser LOG     undefined
+[00:08:18.448] Browser LOG     undefined
+[00:08:18.448] Browser LOG     undefined
+[00:08:19.244] Server  LOG     rampal@gmail.com
+[00:08:19.294] Browser LOG     undefined
+[00:08:19.294] Browser LOG     undefined
+[00:08:19.324] Server  LOG     {}
+[00:08:19.517] Browser LOG     {"email":"rampal@gmail.com","id":"6aa149d921ae94f1d9a30e0d","name":"Rampal","role":"user"}
+[00:08:19.517] Browser LOG     {"email":"rampal@gmail.com","id":"6aa149d921ae94f1d9a30e0d","name":"Rampal","role":"user"}
+[00:09:33.890] Browser LOG     {"message":"Vendor details submitted successfully","user":{"__v":0,"_id":"6aa149d921ae94f1d9a30e0d","businessAddress":"Delhi","cart":[],"chats":[],"createdAt":"2026-09-09T11:58:17.166Z","email":"rampal@gmail.com","gstNumber":"00000","isApproved":false,"name":"Rampal","orders":[],"password":"$2b$10$D.rMzooptE9lYf1PghF91eDWGP2PfZHTaJyUamOIVqBaJiH8IEKR6","phone":"5265226166","requestedAt":"2026-09-09T11:59:43.293Z","role":"vendor","shopName":"Ram Footwear's","updatedAt":"2026-09-09T11:59:43.293Z","vendorProducts":[],"verificationStatus":"pending"}}
+[00:09:38.116] Browser LOG     {"email":"rampal@gmail.com","id":"6aa149d921ae94f1d9a30e0d","name":"Rampal","role":"user"}
+[00:09:38.116] Browser LOG     {"email":"rampal@gmail.com","id":"6aa149d921ae94f1d9a30e0d","name":"Rampal","role":"user"}

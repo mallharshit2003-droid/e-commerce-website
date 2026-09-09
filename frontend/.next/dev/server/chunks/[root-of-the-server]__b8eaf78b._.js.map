@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 40, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/hp/OneDrive/Desktop/MultiCart/multicart/src/proxy.ts"],"sourcesContent":["import { NextRequest, NextResponse } from \"next/server\";\r\n\r\nexport async function proxy(req:NextRequest){\r\n    const {pathname} = req.nextUrl\r\n    const publicRoutes = [\"/login\", \"/signup\" , \"/api/auth\" ,\"/favicon.ico\", \"/_next\" ]\r\n    if(publicRoutes.some((path)=>pathname.startsWith(path))){\r\n        return \r\n    }\r\n}"],"names":[],"mappings":";;;;AAEO,eAAe,MAAM,GAAe;IACvC,MAAM,EAAC,QAAQ,EAAC,GAAG,IAAI,OAAO;IAC9B,MAAM,eAAe;QAAC;QAAU;QAAY;QAAa;QAAgB;KAAU;IACnF,IAAG,aAAa,IAAI,CAAC,CAAC,OAAO,SAAS,UAAU,CAAC,QAAO;QACpD;IACJ;AACJ","debugId":null}}]
+}

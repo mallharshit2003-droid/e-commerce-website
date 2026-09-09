@@ -1,0 +1,10 @@
+{
+  "name": "multicart-backend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node --env-file=../frontend/.env.local server.mjs",
+    "build": "node --check server.mjs",
+    "start": "node --env-file=../frontend/.env.local server.mjs"
+  }
+}

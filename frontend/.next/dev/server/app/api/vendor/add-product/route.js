@@ -1,0 +1,11 @@
+var R=require("../../../../chunks/[turbopack]_runtime.js")("server/app/api/vendor/add-product/route.js")
+R.c("server/chunks/node_modules_next_9851346b._.js")
+R.c("server/chunks/node_modules_lodash_9f355569._.js")
+R.c("server/chunks/node_modules_cloudinary_0ecd8ca6._.js")
+R.c("server/chunks/node_modules_@auth_core_5e0bf1eb._.js")
+R.c("server/chunks/node_modules_jose_dist_webapi_868b124b._.js")
+R.c("server/chunks/node_modules_287b9c14._.js")
+R.c("server/chunks/[root-of-the-server]__63891bc1._.js")
+R.c("server/chunks/frontend__next-internal_server_app_api_vendor_add-product_route_actions_64074637.js")
+R.m("[project]/node_modules/next/dist/esm/build/templates/app-route.js { INNER_APP_ROUTE => \"[project]/frontend/src/app/api/vendor/add-product/route.ts [app-route] (ecmascript)\" } [app-route] (ecmascript)")
+module.exports=R.m("[project]/node_modules/next/dist/esm/build/templates/app-route.js { INNER_APP_ROUTE => \"[project]/frontend/src/app/api/vendor/add-product/route.ts [app-route] (ecmascript)\" } [app-route] (ecmascript)").exports
