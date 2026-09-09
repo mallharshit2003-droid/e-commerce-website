@@ -1,53 +1,93 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-bun dev
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
 # MultiCart
 
-This Next.js project is organized into frontend and backend folders.
+MultiCart is a full-stack multi-vendor e-commerce application. It provides product browsing, search, cart and checkout flows, user accounts, orders, vendor tools, admin tools, and support chat.
 
-## Structure
+## Technology
 
-- `frontend/` contains the Next.js pages, components, hooks, Redux state, assets, and API route handlers.
-- `backend/` contains MongoDB utilities, models, authentication, and server-owned code.
+- Next.js 16, React 19, and TypeScript
+- Redux Toolkit for client state
+- Node.js HTTP backend
+- MongoDB with Mongoose
+- NextAuth for authentication
+- Cloudinary for product media
+- Stripe for payments
+
+## Project structure
+
+- `frontend/` contains the Next.js application, pages, components, Redux state, and API routes.
+- `backend/` contains the Node.js server, MongoDB models, and server utilities.
+
+## Requirements
+
+- Node.js 20 or newer
+- npm
+- A MongoDB connection string
+
+## Setup
+
+Install dependencies from the project root:
+
+```bash
+npm install
+```
+
+Create `frontend/.env.local` and add the values for your services:
+
+```env
+MONGODB_URL=your-mongodb-connection-string
+AUTH_SECRET=your-auth-secret
+GOOGLE_CLIENT_ID=your-google-client-id
+GOOGLE_CLIENT_SECRET=your-google-client-secret
+CLOUDINARY_CLOUD_NAME=your-cloudinary-cloud-name
+CLOUDINARY_API_KEY=your-cloudinary-api-key
+CLOUDINARY_API_SECRET=your-cloudinary-api-secret
+STRIPE_SECRET_KEY=your-stripe-secret-key
+STRIPE_WEBHOOK_SECRET=your-stripe-webhook-secret
+GMAIL_USER=your-gmail-address
+GMAIL_APP_PASSWORD=your-gmail-app-password
+```
+
+Do not commit `.env.local` or expose its values. The repository `.gitignore` excludes environment files.
 
 ## Run locally
 
-Open two terminals and run the services separately.
+Open two terminals in the project root and run the services separately.
 
-Backend terminal:
+Terminal 1, backend:
 
 ```bash
 cd backend
 npm run dev
 ```
 
-Frontend terminal:
+Terminal 2, frontend:
 
 ```bash
 cd frontend
 npm run dev
 ```
 
-Backend health check: http://localhost:4000/health
+The frontend runs at [http://localhost:3000](http://localhost:3000).
 
-Open the frontend at http://localhost:3000.
+The backend health check is available at [http://localhost:4000/health](http://localhost:4000/health).
 
-Environment variables are stored in `frontend/.env.local`.
+The backend reads `frontend/.env.local` automatically. Set `BACKEND_PORT` there to use a port other than `4000`.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Available scripts
+
+Run these from the project root:
+
+```bash
+npm run dev       # Start the frontend
+npm run build     # Build the frontend
+npm run start     # Start the production frontend
+npm run lint      # Check frontend code
+```
+
+Backend scripts are available from `backend/`:
+
+```bash
+npm run dev       # Start the backend in development
+npm run build     # Check the backend syntax
+npm run start     # Start the backend in production mode
+```
