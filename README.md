@@ -1,37 +1,85 @@
 # MultiCart
 
-MultiCart is a full-stack multi-vendor e-commerce application. It provides product browsing, search, cart and checkout flows, user accounts, orders, vendor tools, admin tools, and support chat.
+> One marketplace. Many sellers. A smoother way to buy.
 
-## Technology
+MultiCart is a full-stack multi-vendor marketplace built for the complete shopping journey: discover products, manage a cart, pay securely, track orders, and keep buyers and sellers connected through support chat.
 
-- Next.js 16, React 19, and TypeScript
-- Redux Toolkit for client state
-- Node.js HTTP backend
-- MongoDB with Mongoose
-- NextAuth for authentication
-- Cloudinary for product media
-- Stripe for payments
+```text
+										MULTICART
+		 buyer experience  <->  seller workspace
+							\              /
+							 \            /
+								admin control
+										 |
+					MongoDB + media + payments
+```
 
-## Project structure
+## What makes it useful?
 
-- `frontend/` contains the Next.js application, pages, components, Redux state, and API routes.
-- `backend/` contains the Node.js server, MongoDB models, and server utilities.
+| Workspace | Built for | Core capabilities |
+| --- | --- | --- |
+| Storefront | Buyers | Browse, search, view products, cart, checkout, orders |
+| Vendor tools | Sellers | Add products, update listings, manage requests and orders |
+| Admin tools | Platform operators | Review vendors, moderate products, manage marketplace activity |
+| Support | Everyone | Active-user presence, messages, and suggested replies |
 
-## Requirements
+## Product tour
+
+- **Discover** products by category or search.
+- **Decide** with focused product details and vendor information.
+- **Buy** through a persistent cart and Stripe checkout flow.
+- **Follow up** with order history and success or failure states.
+- **Operate** with dedicated vendor and admin dashboards.
+- **Connect** through authentication, email support, and chat.
+
+## Stack
+
+| Layer | Technology |
+| --- | --- |
+| Web app | Next.js 16, React 19, TypeScript |
+| UI | Tailwind CSS, Framer Motion, React Icons |
+| State | Redux Toolkit and React Redux |
+| API and services | Next.js route handlers, Node.js HTTP server |
+| Data | MongoDB and Mongoose |
+| Identity | NextAuth and Google OAuth |
+| Payments | Stripe |
+| Product media | Cloudinary |
+
+## Repository map
+
+```text
+multicart/
+├── frontend/
+│   ├── src/app/          Pages and API route handlers
+│   ├── src/component/    Shared UI and dashboards
+│   ├── src/redux/        Client state slices and store
+│   └── public/           Public assets and uploads
+├── backend/
+│   ├── models/           User, product, and order models
+│   ├── lib/              Database, mail, and Cloudinary utilities
+│   └── server.mjs        MongoDB-backed health server
+└── README.md
+```
+
+## Get started
+
+### 1. Install
+
+Requirements:
 
 - Node.js 20 or newer
 - npm
 - A MongoDB connection string
 
-## Setup
-
-Install dependencies from the project root:
+From the project root:
 
 ```bash
 npm install
 ```
 
-Create `frontend/.env.local` and add the values for your services:
+### 2. Configure services
+
+Create `frontend/.env.local`:
 
 ```env
 MONGODB_URL=your-mongodb-connection-string
@@ -47,47 +95,72 @@ GMAIL_USER=your-gmail-address
 GMAIL_APP_PASSWORD=your-gmail-app-password
 ```
 
-Do not commit `.env.local` or expose its values. The repository `.gitignore` excludes environment files.
+Keep this file private. Environment files are excluded by `.gitignore`.
 
-## Run locally
+### 3. Start the services
 
-Open two terminals in the project root and run the services separately.
+Use two terminals from the project root.
 
-Terminal 1, backend:
+**Terminal A: backend**
 
 ```bash
 cd backend
 npm run dev
 ```
 
-Terminal 2, frontend:
+**Terminal B: frontend**
 
 ```bash
 cd frontend
 npm run dev
 ```
 
-The frontend runs at [http://localhost:3000](http://localhost:3000).
+Open the app at [localhost:3000](http://localhost:3000). Check the backend at [localhost:4000/health](http://localhost:4000/health).
 
-The backend health check is available at [http://localhost:4000/health](http://localhost:4000/health).
+The backend reads `frontend/.env.local` and uses port `4000` by default. Set `BACKEND_PORT` to change it.
 
-The backend reads `frontend/.env.local` automatically. Set `BACKEND_PORT` there to use a port other than `4000`.
+## Commands
 
-## Available scripts
-
-Run these from the project root:
+### Root
 
 ```bash
 npm run dev       # Start the frontend
 npm run build     # Build the frontend
 npm run start     # Start the production frontend
-npm run lint      # Check frontend code
+npm run lint      # Lint the frontend
 ```
 
-Backend scripts are available from `backend/`:
+### Backend
 
 ```bash
-npm run dev       # Start the backend in development
-npm run build     # Check the backend syntax
+cd backend
+npm run dev       # Start the backend
+npm run build     # Check server syntax
 npm run start     # Start the backend in production mode
 ```
+
+## Request flow
+
+```text
+Browser
+	|
+	|-- Next.js pages and route handlers
+	|       |-- Auth: NextAuth / Google
+	|       |-- Data: MongoDB via Mongoose
+	|       |-- Media: Cloudinary
+	|       `-- Payments: Stripe
+	|
+	`-- Backend health and service process
+					`-- MongoDB connection
+```
+
+## Contributing
+
+1. Create a focused branch for your change.
+2. Keep secrets out of commits and pull requests.
+3. Run the relevant build or lint command before opening a pull request.
+4. Describe the user workflow affected by the change.
+
+## License
+
+This project is private and does not currently declare an open-source license.
