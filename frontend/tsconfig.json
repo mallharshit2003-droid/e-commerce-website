@@ -20,13 +20,13 @@
     ],
     "paths": {
       "@/*": ["./src/*"],
-      "@/auth": ["../backend/auth"],
+      "@/auth": ["./src/auth"],
       "@/component/*": ["./src/component/*"],
       "@/hooks/*": ["./src/hooks/*"],
       "@/redux/*": ["./src/redux/*"],
       "@/assets/*": ["./src/assets/*"],
-      "@/lib/*": ["../backend/lib/*"],
-      "@/models/*": ["../backend/models/*"]
+      "@/lib/*": ["./src/lib/*"],
+      "@/models/*": ["./src/models/*"]
     }
   },
   "include": [
